@@ -5,10 +5,10 @@ metadata:
 spec:
   replicas: 3
   selector:
+  
     tier: web-server
   template:
     metadata:
-      name: nginx
       labels:
         tier: web-server
     spec:
